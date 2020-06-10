@@ -1,0 +1,38 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+.tlg-but :hover{
+    padding: 0px 10px;
+    background-color: #24355c;
+}
+
+#intro {
+    background: url("../img/header.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: #24355C;
+  }
+
+  .page-footer {
+    background-color: #24355C !important;
+}
+
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
